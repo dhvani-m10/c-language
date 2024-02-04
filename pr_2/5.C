@@ -3,28 +3,28 @@
 
 main()
 {
-	int a,total_bill;
+	int u;
 	float Ebill;
 	clrscr();
 
 	printf("enter Electricity Unit : ");
-	scanf("%d",&total_bill);
+	scanf("%d",&u);
 
-	if(a>=0 && a<=50)
+	if(u<=50)
 	{
-	Ebill=(total_bill*0.50);
+	Ebill=u*0.50;
 	}
-	else if(a>50 && a<=150)
+	else if(u>50 && u<=150)
 	{
-	Ebill=50*0.50+(total_bill-50)*0.75;
+	Ebill=25+(u-50)*0.75;
 	}
-	else if(a>150 && a<=250)
+	else if(u>150 && u<=250)
 	{
-	Ebill=50*0.50+100*0.75+(total_bill-150)*1.20;
+	Ebill=100+(u-150)*1.20;
 	}
 	else
 	{
-	Ebill=50*0.50+100*0.75+100*1.20+(total_bill-250)*1.50;
+	Ebill=220+(u-250)*1.50;
 	}
 
 	Ebill=Ebill+0.20*Ebill;
