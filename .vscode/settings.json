@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "2.C": "cpp",
+        "1.C": "cpp",
+        "RECTANGL.C": "cpp",
+        "CIRCLE.C": "cpp",
+        "FIRST.C": "cpp",
+        "FIFTH.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

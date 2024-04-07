@@ -1,10 +1,10 @@
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 
 main()
 {
 	int a=0;
-	clrscr();
+	// clrscr();
 
 	printf("enter any number\t:");
 	scanf("%d",&a);
@@ -22,5 +22,5 @@ main()
 	printf("%d * 9 = %d\n",a,a*9);
 	printf("%d * 10 = %d\n",a,a*10);
 
-	getch();
+	// getch();
 }

@@ -1,10 +1,10 @@
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 
 main()
 {
 	float c,f;
-	clrscr();
+	// clrscr();
 
 	printf("celsius\t: ");
 	scanf("%f",&c);
@@ -12,5 +12,5 @@ main()
 	f=(c*9/5)+32;
 
 	printf("Fahrenheit\t:%.1f",f);
-	getch();
+	// getch();
 }

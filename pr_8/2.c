@@ -2,7 +2,7 @@
 
 void cube();
 
-int main()
+void main()
 {
     int size;
 
@@ -23,7 +23,7 @@ int main()
     printf("Cube of all elements : \n");
     cube(arr,size);
 
-return 0;
+
 }
 
 void cube(int *arr,int size)
